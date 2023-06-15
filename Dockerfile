@@ -48,7 +48,7 @@ RUN rm /etc/nginx/sites-enabled/default
 
 # Cài đặt supervisor cho quản lý tiến trình
 RUN apt-get install -y supervisor
-COPY ./docker/supervisor/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+COPY ./docker/8.2/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 # Thiết lập quyền và sở hữu cho các tệp Laravel
 RUN chown -R www-data:www-data \
