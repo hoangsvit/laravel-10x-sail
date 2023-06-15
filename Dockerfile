@@ -1,20 +1,54 @@
-FROM richarvey/nginx-php-fpm:3.1.6
+FROM php:8.2-alpine3.17
 
-COPY . .
+# Add docker-php-extension-installer script
+ADD https://github.com/mlocati/docker-php-extension-installer/releases/latest/download/install-php-extensions /usr/local/bin/
 
-# Image config
-ENV SKIP_COMPOSER 1
-ENV WEBROOT /var/www/html/public
-ENV PHP_ERRORS_STDERR 1
-ENV RUN_SCRIPTS 1
-ENV REAL_IP_HEADER 1
+# Install dependencies
+RUN apk add --no-cache \
+    bash \
+    curl \
+    freetype-dev \
+    g++ \
+    gcc \
+    git \
+    icu-dev \
+    icu-libs \
+    libc-dev \
+    libzip-dev \
+    make \
+    mysql-client \
+    nodejs \
+    npm \
+    oniguruma-dev \
+    yarn \
+    openssh-client \
+    postgresql-libs \
+    rsync \
+    zlib-dev
 
-# Laravel config
-ENV APP_ENV production
-ENV APP_DEBUG false
-ENV LOG_CHANNEL stderr
+# Install php extensions
+RUN chmod +x /usr/local/bin/install-php-extensions && \
+    install-php-extensions \
+    @composer \
+    redis-stable \
+    imagick-stable \
+    xdebug-stable \
+    bcmath \
+    calendar \
+    exif \
+    gd \
+    intl \
+    pdo_mysql \
+    pdo_pgsql \
+    pcntl \
+    soap \
+    zip
 
-# Allow composer to run as root
-ENV COMPOSER_ALLOW_SUPERUSER 1
+# Add local and global vendor bin to PATH.
+ENV PATH ./vendor/bin:/composer/vendor/bin:/root/.composer/vendor/bin:/usr/local/bin:$PATH
 
-CMD ["/start.sh"]
+# Install PHP_CodeSniffer
+RUN composer global require "squizlabs/php_codesniffer=*"
+
+# Setup working directory
+WORKDIR /var/www
