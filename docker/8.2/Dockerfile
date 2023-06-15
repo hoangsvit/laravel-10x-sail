@@ -50,7 +50,7 @@ RUN useradd -ms /bin/bash --no-user-group -g $WWWGROUP -u 1337 sail
 
 COPY /var/www/html/.docker/8.2/start-container /usr/local/bin/start-container
 COPY /var/www/html/.docker/8.2/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
-COPY /var/www/html/.docker/8.2/php.ini /etc/php/8.2/cli/conf.d/99-sail.ini
+#COPY /var/www/html/.docker/8.2/php.ini /etc/php/8.2/cli/conf.d/99-sail.ini
 RUN chmod +x /usr/local/bin/start-container
 
 EXPOSE 8000
