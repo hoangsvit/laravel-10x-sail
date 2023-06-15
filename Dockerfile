@@ -52,3 +52,5 @@ RUN composer global require "squizlabs/php_codesniffer=*"
 
 # Setup working directory
 WORKDIR /var/www
+
+CMD ["/start.sh"]
