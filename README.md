@@ -1,66 +1,25 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<h1 align=center>Examples & Sample Projects for <a href="https://vercel.com">Vercel</a></h1>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<p align=center>
+   📦 Included examples of PHP Runtime (<a href="https://github.com/juicyfx/vercel-php">vercel-php</a>).
 </p>
 
-## About Laravel
+<p align=center>
+🕹 <a href="https://eplus.dev">eplus.dev</a>
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## ⚙️ Usage
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+1. Clone repository `git clone git@github.com:hoangsvit/laravel-10x-sail-vercel.git`.
+2. Browse single example, `cd laravel-10x-sail-vercel`.
+3. Deploy to Vercel, `vercel`.
 
-## Learning Laravel
+## 🚀 Click & Go
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Fastest way how to deploy example project is using following deploy button. It deploys you example PHP project.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+<a href="[https://vercel.com/new/clone?demo-description=Static%20frontend%20with%20PHP%20function.&demo-title=PHP&demo-url=https%3A%2F%2Fphp.vercel.app&project-name=vercel-php&s=https%3A%2F%2Fgithub.com%2Fjuicyfx%2Fvercel-examples%2Ftree%2Fmaster%2Fphp&repository-name=vercel-php&from=templates&demo-image=https%3A%2F%2Fog-image.vercel.app%2F**Vercel**%2520%252B%2520**PHP**.jpeg%3Ftheme%3Dlight%26md%3D1%26fontSize%3D100px%26images%3Dhttps%253A%252F%252Fassets.vercel.com%252Fimage%252Fupload%252Ffront%252Fassets%252Fdesign%252Fvercel-triangle-black.svg%26images%3Dhttps%253A%252F%252Fsimpleicons.vercel.app%252Fphp%252F595C96%26heights%3D200%26heights%3D350](https://vercel.com/new/clone?demo-description=Deploy%20Laravel%2010x%20on%20Vercel.&demo-title=PHP&demo-url=https://laravel-10x-sail.vercel.app&project-name=laravel-10x-sail-vercel&s=https://github.com/hoangsvit/laravel-10x-sail-vercel/tree/master/&repository-name=laravel-10x-sail-vercel&from=templates&demo-image=https://og-image.vercel.app/**Vercel**%20%2B%20**PHP**.jpeg?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg&images=https%3A%2F%2Fsimpleicons.vercel.app%2Fphp%2F595C96&heights=200&heights=350)"><img src="https://vercel.com/button" height="24"></a>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This project is [MIT](LICENSE) licensed.
